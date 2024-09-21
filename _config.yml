@@ -2,8 +2,8 @@ title: 3D printing
 description: >-
   The site to order prints from Evan.
 
-baseurl: "/3dprints/" # repo name, leave blank for user/org pages.
-url: "https://bagpipesrbetter.github.io/3dprints/" # Full URL, always.
+baseurl: "" # repo name, leave blank for user/org pages.
+url: "https://bagpipesrbetter.github.io/" # Full URL, always.
 
 permalink: /:title
 
