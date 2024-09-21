@@ -1,9 +1,9 @@
-title: mnml-jekyll-no-styling
+title: 3D printing
 description: >-
-  A minimal Jekyll config with Sass compilation setup for non-blog websites.
+  The site to order prints from Evan.
 
-baseurl: "/mnml-jekyll-no-styling/" # repo name, leave blank for user/org pages.
-url: "https://ajitzero.github.io/mnml-jekyll-no-styling" # Full URL, always.
+baseurl: "/3dprints/" # repo name, leave blank for user/org pages.
+url: "https://bagpipesrbetter.github.io/3dprints/" # Full URL, always.
 
 permalink: /:title
 
