@@ -22,35 +22,111 @@
 
 		.styled-hr {
       border: none;
-      height: 3px; /* Adjust thickness as needed */
+      height: 5px; /* Adjust thickness as needed */
       background-color: black;
       margin: 20px 0; /* Adjust spacing as needed */
     }
+	.navbar {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for the logo */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* White text for logo */
+}
+
+.menu-icon {
+    display: none; /* Hidden by default */
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff; /* White menu icon */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; /* Flex for horizontal layout */
+    gap: 1.5rem; /* Spacing between the items */
+}
+
+.nav-links li {
+    /* No additional styles needed here */
+}
+
+.nav-links a {
+    color: #ffffff; /* Black text for links */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+.nav-links a:hover {
+    background-color: #fff; /* White background on hover */
+    color: #000000; /* Black text on hover */
+    padding: 0.25rem 0.5rem; /* Add some padding for hover effect */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.cta .order-btn {
+    background-color: #fff; /* White background for button */
+    color: #000; /* Black text */
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 2px solid #000; /* Black border for high contrast */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.cta .order-btn:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text on hover */
+	border-color: #fff;
+}
+
+/* Responsive Menu */
+@media screen and (max-width: 1000px) {
+    .nav-links {
+        display: none; /* Hide nav links */
+        position: absolute;
+        top: 70px; /* Position below the navbar */
+        left: 0;
+        background-color: #000; /* Black background for menu */
+        width: 100%; /* Full width */
+        flex-direction: column; /* Vertical layout */
+        gap: 0; /* Remove gap */
+    }
+
+    .nav-links.show {
+        display: flex; /* Show nav links when .show is added */
+    }
+
+    .nav-links li {
+        text-align: center; /* Center the text */
+        padding: 1rem 0; /* Space between items */
+        border-bottom: 1px solid #fff; /* Divider between items */
+    }
+
+    .menu-icon {
+        display: block; /* Show menu icon */
+    }
+
+    .cta {
+        display: none; /* Hide the CTA button on small screens */
+    }
+}
 	</style>
 	<script type="text/javascript">
-		function getDocHeight(doc) {
-			doc = doc || document;
-			// stackoverflow.com/questions/1145850/
-			var body = doc.body, html = doc.documentElement;
-			var height = Math.max( body.scrollHeight, body.offsetHeight, 
-				html.clientHeight, html.scrollHeight, html.offsetHeight );
-			return height;
-		}
-		
-		function setIframeHeight(id) {
-			var ifrm = document.getElementById(id);
-			var doc = ifrm.contentDocument? ifrm.contentDocument: 
-				ifrm.contentWindow.document;
-			ifrm.style.visibility = 'hidden';
-			ifrm.style.height = "10px"; // reset to minimal height ...
-			// IE opt. for bing/msn needs a bit added or scrollbar appears
-			ifrm.style.height = getDocHeight( doc ) + 4 + "px";
-			ifrm.style.visibility = 'visible';
-		}
-		
-		document.getElementById('ifrm').onload = function() { // Adjust the Id accordingly
-			setIframeHeight(this.id);
-		}
+		document.getElementById('menu-icon').addEventListener('click', function() {
+    var navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('show');
+});
 		</script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -77,32 +153,30 @@
 <body style="height: 4000px;">
 
 	<header>
-		<div>
-			<hr class="styled-hr">
-			<h1 style="font-family: monospace;">3dprints</h1>
-			<h3>The site to order prints<br>from Evan.</h3>
-			<button class="dropdown-btn">Show Content</button>
-			<hr class="styled-hr">
-		</div>
+		<hr class="styled-hr">
+		<nav class="navbar">
+			<div class="logo">3D Print</div>
+			<div class="menu-icon" id="menu-icon">
+				&#9776; <!-- Menu icon (three horizontal bars) -->
+			</div>
+			<ul class="nav-links" id="nav-links">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#order">Order</a></li>
+				<li><a href="#materials">Materials</a></li>
+				<li><a href="#pricing">Pricing</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<div class="cta">
+				<a href="#order" class="order-btn">Place an Order</a>
+			</div>
+		</nav>
+		<hr class="styled-hr">
+
 	</header>
 
 	<main>
-		<div class="dropdown-content">
-			<h4>Fill this form to ask???<h3>⬇</h3></h4>
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDquPpvKuVUtfdUuNoEJkTShx1LqEno2CwIB1R0o46PM_SCQ/viewform?embedded=true" class="item" height="1790" frameborder="0" marginheight="0" scrolling="no" marginwidth="0">Loading…</iframe>
-		</div>
-		<div>
-			<hr class="styled-hr">
-			<h1 style="font-family: monospace;">Previous Prints</h1>
-			<h3>prints i've done before<br>(for other people)<h3>⬇</h3></h3>
-			<hr class="styled-hr">
-			<div class="dropdown-content">
-				<h1 style="font-family: monospace;">Dustins Spraypaint<br>phone mount</h1>
-				<hr class="styled-hr">
-				<img src="/assets/images/A38FC7DE-FC44-47B7-8691-0F6B7644BBB4_1_105_c.jpeg" class="item" height="auto"><br><img src="/assets/images/35D13B7A-DD31-46E1-849B-69BFA88C1A5D_1_105_c.jpeg" width="640" height="auto">
-				<hr class="styled-hr">
-			</div>
-	</div>
+		
 	</main>
 
 </body>
