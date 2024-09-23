@@ -120,3 +120,19 @@ body {
           display: none; /* Hide the CTA button on small screens */
       }
   }
+  .main-content {
+    position: relative;
+    min-height: 100vh; /* Ensure it's tall enough for the arrow positioning */
+}
+
+/* Arrow Styles */
+.arrow {
+    font-size: 10rem; /* Huge size */
+    color: #000000; /* Default white color for the arrow */
+    position: absolute; /* Positioned relative to .main-content */
+    animation: shake 1s infinite; /* Apply shake animation */
+    z-index: -5;
+    cursor: pointer; /* Cursor change on hover */
+    top: 200px; /* Fixed position above the CTA button */
+    right: 50px; /* Fixed position aligning with the CTA button */
+}
