@@ -1,133 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<style>
-		body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-  font-family: monospace;
-}
-/* CSS Code */
-.item {
-    width: 100%; /* Default to full width */
-}
-
-@media (min-width: 768px) {
-    .item {
-        width: 640px; /* Set width to 640px for desktops */
-    }
-}
-
-		.styled-hr {
-      border: none;
-      height: 5px; /* Adjust thickness as needed */
-      background-color: black;
-      margin: 20px 0; /* Adjust spacing as needed */
-    }
-	.navbar {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text for the logo */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    position: relative;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff; /* White text for logo */
-}
-
-.menu-icon {
-    display: none; /* Hidden by default */
-    font-size: 2rem;
-    cursor: pointer;
-    color: #fff; /* White menu icon */
-}
-
-.nav-links {
-    list-style: none;
-    display: flex; /* Flex for horizontal layout */
-    gap: 1.5rem; /* Spacing between the items */
-}
-
-.nav-links li {
-    /* No additional styles needed here */
-}
-
-.nav-links a {
-    color: #ffffff; /* Black text for links */
-    text-decoration: none;
-    font-size: 1rem;
-    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
-}
-
-.nav-links a:hover {
-    background-color: #fff; /* White background on hover */
-    color: #000000; /* Black text on hover */
-    padding: 0.25rem 0.5rem; /* Add some padding for hover effect */
-    border-radius: 5px; /* Rounded corners */
-}
-
-.cta .order-btn {
-    background-color: #fff; /* White background for button */
-    color: #000; /* Black text */
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border: 2px solid #000; /* Black border for high contrast */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 1rem;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
-}
-
-.cta .order-btn:hover {
-    background-color: #000; /* Black background on hover */
-    color: #fff; /* White text on hover */
-	border-color: #fff;
-}
-
-/* Responsive Menu */
-@media screen and (max-width: 1000px) {
-    .nav-links {
-        display: none; /* Hide nav links */
-        position: absolute;
-        top: 70px; /* Position below the navbar */
-        left: 0;
-        background-color: #000; /* Black background for menu */
-        width: 100%; /* Full width */
-        flex-direction: column; /* Vertical layout */
-        gap: 0; /* Remove gap */
-    }
-
-    .nav-links.show {
-        display: flex; /* Show nav links when .show is added */
-    }
-
-    .nav-links li {
-        text-align: center; /* Center the text */
-        padding: 1rem 0; /* Space between items */
-        border-bottom: 1px solid #fff; /* Divider between items */
-    }
-
-    .menu-icon {
-        display: block; /* Show menu icon */
-    }
-
-    .cta {
-        display: none; /* Hide the CTA button on small screens */
-    }
-}
-	</style>
-	<script type="text/javascript">
-		document.getElementById('menu-icon').addEventListener('click', function() {
-    var navLinks = document.getElementById('nav-links');
-    navLinks.classList.toggle('show');
-});
-		</script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -143,7 +16,7 @@
 	<!-- Use https://www.favicon-generator.org/ to generate icons -->
 	<meta name="msapplication-TileColor" content="#ffffff"> <!-- HEX Code -->
 	<meta name="theme-color" content="#ffffff"> <!-- HEX Code -->
-
+	<link rel="stylesheet" href="styles.css">
 	<title>3dprint ordering</title>
 
 	<!-- Custom CSS -->
@@ -164,11 +37,11 @@
 				<li><a href="#order">Order</a></li>
 				<li><a href="#materials">Materials</a></li>
 				<li><a href="#pricing">Pricing</a></li>
-				<li><a href="#about">About</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 			<div class="cta">
 				<a href="#order" class="order-btn">Place an Order</a>
+				<script src="script.js"></script>
 			</div>
 		</nav>
 		<hr class="styled-hr">
