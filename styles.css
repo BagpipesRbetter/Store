@@ -94,13 +94,13 @@ body {
           top: 7vh; /* Position below the navbar */
           right: 0;
           background-color: #000; /* Black background for menu */
-          width: 90%; /* Full width */
           flex-direction: column; /* Vertical layout */
           gap: 0; /* Remove gap */
       }
   
       .nav-links.show {
           display: flex; /* Show nav links when .show is added */
+          border-radius: 20px;
           
       }
   
