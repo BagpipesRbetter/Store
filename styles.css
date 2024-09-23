@@ -10,7 +10,22 @@ body {
   .item {
       width: 100%; /* Default to full width */
   }
-  
+  .cta1 .order-btn {
+    background-color: #fff; /* White background for button */
+    color: #000; /* Black text */
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 2px solid #000; /* Black border for high contrast */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.cta1 .order-btn:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text on hover */
+    border-color: #fff;
+}
   @media (min-width: 768px) {
       .item {
           width: 640px; /* Set width to 640px for desktops */
