@@ -1,13 +1,22 @@
-# mnml-jekyll-no-styling
+1. Usher
+2. Shepherd 
+3. Cowboy 
+   ~~pilot~~ 
 
-Minimal Jekyll config with Sass compilation setup for non-blog websites.
 
-🚀 **Live:** https://ajitzero.github.io/mnml-jekyll-no-styling
+5. Pendulum 
+6. Swing
+7. Saloon doors
 
-## Meta
+8. Ram 
+9. Steer
 
-[![GitHub watchers](https://img.shields.io/github/watchers/AjitZero/mnml-jekyll-no-styling.svg?style=social&label=Watch)](https://github.com/AjitZero/mnml-jekyll-no-styling)
-[![GitHub stars](https://img.shields.io/github/stars/AjitZero/mnml-jekyll-no-styling.svg?style=social&label=Star)](https://github.com/AjitZero/mnml-jekyll-no-styling)
-[![GitHub forks](https://img.shields.io/github/forks/AjitZero/mnml-jekyll-no-styling.svg?style=social&label=Fork)](https://github.com/AjitZero/mnml-jekyll-no-styling)
+10. Drum
+11. Cylinder 
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See [`LICENSE`](https://github.com/AjitZero/mnml-jekyll-no-styling/blob/master/LICENSE) for more information. (It basically means "do whatever you wnat with it".)
+Raven 
+Golfer
+Tank
+Cask
+Jet 
+Pilot
