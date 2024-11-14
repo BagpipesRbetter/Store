@@ -3,7 +3,7 @@ I’m a 18 year old college student looking to fund my education, I have a 3D pr
 <details>
   <summary>Click To Order</summary>
 
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDquPpvKuVUtfdUuNoEJkTShx1LqEno2CwIB1R0o46PM_SCQ/viewform?embedded=true" width="99%" height=“fit-content” frameborder="0" marginheight="0" scrolling="yes" marginwidth="0">Loading…</iframe>
+  !(Request form)[https://forms.gle/eEWjGUsopVvQxeCq8]
 
 </details>
 
@@ -24,7 +24,7 @@ I’m just a college student looking to not Starve to death
   <summary>Dustins Spray Paint Phone Mount</summary>
 
   ### Dustins Spray Paint Phone Mount
-  ![Dustins Spray Paint Phone Mount]("https://github.com/BagpipesRbetter/Store/blob/master/assets/images/phone_mount1.jpg")
-  ![Dustins Spray Paint Phone Mount]("https://github.com/BagpipesRbetter/Store/blob/master/assets/images/phone_mount2.jpg")
+  !(Dustins Spray Paint Phone Mount)["https://github.com/BagpipesRbetter/Store/blob/master/assets/images/phone_mount1.jpg"]
+  !(Dustins Spray Paint Phone Mount)["https://github.com/BagpipesRbetter/Store/blob/master/assets/images/phone_mount2.jpg"]
 
 </details>
