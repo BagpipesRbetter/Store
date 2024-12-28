@@ -15,6 +15,6 @@ I’m just a college student looking to not Starve to death
 ##### Previous Orders
 <details>
   <summary>Dustins Spray Paint Phone Mount</summary>
-  ![Dustins Spray Paint Phone Mount](assets/images/phone_mount1.jpg)
-  ![Dustins Spray Paint Phone Mount](assets/images/phone_mount2.jpg)
+  <img src="assets/images/phone_mount1.jpg">
+  <img src="assets/images/phone_mount2.jpg">
 </details>
