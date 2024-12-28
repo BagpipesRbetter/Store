@@ -6,7 +6,6 @@ I’m a 18 year old college student looking to fund my education, I have a 3D pr
 
 
 ##FAQ:
-
 ### What Can You Get?
 Literally anything!
 
