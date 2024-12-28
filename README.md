@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+<img src="assets/images/hi.gif">
 I’m a 18 year old college student looking to fund my education, I have a 3D printer and am willing to print stuff for you, payment is done through <a href="https://www.venmo.com/u/Evan-J-Barclay">Venmo</a> and I ship through usps
 
 <button class="button-33" role="button"><a href="https://forms.gle/eEWjGUsopVvQxeCq8">Order Here or below ↓</a></button>
