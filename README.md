@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 I’m a 18 year old college student looking to fund my education, I have a 3D printer and am willing to print stuff for you, payment is done through <a href="https://www.venmo.com/u/Evan-J-Barclay">Venmo</a> and I ship through usps
 
 <button class="button-40"><a href="https://forms.gle/eEWjGUsopVvQxeCq8">Order Here</a></button>

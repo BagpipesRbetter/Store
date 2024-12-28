@@ -1,3 +1,5 @@
 remote_theme: "dracula/gh-pages"
 title: Evan Barclay Store
 description: This Is Where U Can Buy Stuff From Me
+include:
+  - style.css
