@@ -14,58 +14,43 @@ h6,
     font-family: "JetBrains Mono", monospace !important;
 }
 
-.button-40 {
-    background-color: #111827 !important;
-    border: 1px solid transparent !important;
-    border-radius: 0.75rem !important;
-    box-sizing: border-box !important;
-    color: #ffffff !important;
-    cursor: pointer !important;
-    flex: 0 0 auto !important;
+.button-33 {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow:
+        rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.15) 0 1px 2px,
+        rgba(44, 187, 99, 0.15) 0 2px 4px,
+        rgba(44, 187, 99, 0.15) 0 4px 8px,
+        rgba(44, 187, 99, 0.15) 0 8px 16px,
+        rgba(44, 187, 99, 0.15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
     font-family:
-        "Inter var",
-        ui-sans-serif,
-        system-ui,
+        CerebriSans-Regular,
         -apple-system,
         system-ui,
-        "Segoe UI",
         Roboto,
-        "Helvetica Neue",
-        Arial,
-        "Noto Sans",
-        sans-serif,
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol",
-        "Noto Color Emoji" !important;
-    font-size: 1.125rem !important;
-    font-weight: 600 !important;
-    line-height: 1.5rem !important;
-    padding: 0.75rem 1.2rem !important;
-    text-align: center !important;
-    text-decoration: none #6b7280 solid !important;
-    text-decoration-thickness: auto !important;
-    transition-duration: 0.2s !important;
-    transition-property: background-color, border-color, color, fill, stroke !important;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
-    user-select: none !important;
-    -webkit-user-select: none !important;
-    touch-action: manipulation !important;
-    width: auto !important;
+        sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
-.button-40:hover {
-    background-color: #374151 !important;
-}
-
-.button-40:focus {
-    box-shadow: none !important;
-    outline: 2px solid transparent !important;
-    outline-offset: 2px !important;
-}
-
-@media (min-width: 768px) {
-    .button-40 {
-        padding: 0.75rem 1.5rem !important;
-    }
+.button-33:hover {
+    box-shadow:
+        rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.25) 0 1px 2px,
+        rgba(44, 187, 99, 0.25) 0 2px 4px,
+        rgba(44, 187, 99, 0.25) 0 4px 8px,
+        rgba(44, 187, 99, 0.25) 0 8px 16px,
+        rgba(44, 187, 99, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
 }
