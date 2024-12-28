@@ -6,19 +6,19 @@ I’m a 18 year old college student looking to fund my education, I have a 3D pr
 
 ##FAQ:
 
-#### What Can You Get?
+### What Can You Get?
 Literally anything!
 
-#### Where do I ship?
+### Where do I ship?
 Anywhere in the continental US (i ship through USPS)
 
-#### how much does it cost
+### how much does it cost
 That’s up to you. Pricing consists of materials + labor + shipping normaly ~= $10-$15
 
-#### Why am I doing this?
+### Why am I doing this?
 I’m just a college student looking to not Starve to death
 
-##### Previous Orders
+## Previous Orders
 <details>
   <summary>Dustins Spray Paint Phone Mount</summary>
   <img src="assets/images/phone_mount1.jpg">
