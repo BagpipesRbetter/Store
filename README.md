@@ -1,4 +1,4 @@
-I’m a 18 year old college student looking to fund my education, I have a 3D printer and am willing to print stuff for you, submit the form below to file a order, payment is done through <a href=“https://venmo.com/code?user_id=3865148016035307662”>Venmo</a> and I ship through usps <a href="https://forms.gle/eEWjGUsopVvQxeCq8">Order Here</a>
+I’m a 18 year old college student looking to fund my education, I have a 3D printer and am willing to print stuff for you, submit the form below to file a order, payment is done through <a href="https://www.venmo.com/u/Evan-J-Barclay"> and I ship through usps <a href="https://forms.gle/eEWjGUsopVvQxeCq8">Order Here</a>
 
 #### What Can You Get?
 Literally anything!
