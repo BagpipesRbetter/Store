@@ -1,28 +1,59 @@
-<link rel="stylesheet" href="style.css">
-<img src="assets/images/hi.gif">
-<br>
-I’m a 18 year old college student looking to fund my education, I have a 3D printer and am willing to print stuff for you, payment is done through <a href="https://www.venmo.com/u/Evan-J-Barclay">Venmo</a> and I ship through usps
+# 3D Print Store
 
-<button class="button-33" role="button"><a href="https://forms.gle/eEWjGUsopVvQxeCq8">Order Here or below ↓</a></button>
-<br>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDquPpvKuVUtfdUuNoEJkTShx1LqEno2CwIB1R0o46PM_SCQ/viewform?embedded=true" width="100%" height="1900" frameborder="0" marginheight="0" scrolling="no" marginwidth="0">Loading…</iframe>
-<br>
-<h1>FAQ:</h1>
-### What Can You Get?
-Literally anything!
+A modern, responsive website for showcasing and ordering custom 3D prints.
 
-### Where do I ship?
-Anywhere in the continental US (i ship through USPS)
+## Features
 
-### how much does it cost
-That’s up to you. Pricing consists of materials + labor + shipping normaly ~= $10-$15
+- Modern, minimalist design with a bi-color scheme
+- Responsive layout for all devices
+- Product showcase with animations
+- Shopping cart functionality
+- Easy to customize and extend
 
-### Why am I doing this?
-I’m just a college student looking to not Starve to death
+## Tech Stack
 
-## Previous Orders
-<details>
-  <summary>Dustins Spray Paint Phone Mount</summary>
-  <img src="assets/images/phone_mount1.jpg">
-  <img src="assets/images/phone_mount2.jpg">
-</details>
+- Next.js
+- React
+- Tailwind CSS
+- Framer Motion for animations
+- Heroicons for icons
+
+## Getting Started
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Run the development server:
+```bash
+npm run dev
+```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Deployment
+
+This site is configured for GitHub Pages deployment. To deploy:
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. Export the static site:
+```bash
+npm run export
+```
+
+3. Push the contents of the `out` directory to your GitHub Pages branch.
+
+## Customization
+
+- Colors can be modified in `tailwind.config.js`
+- Products can be added in the `products` array in `pages/index.js`
+- Font can be changed by updating the Google Fonts import in `styles/globals.css`
+
+## License
+
+MIT 
